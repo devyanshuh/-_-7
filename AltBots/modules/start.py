@@ -11,9 +11,7 @@ START_BUTTON = [
         Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/team_nexz"),
         Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/nexz_support")
     ],
-    [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Sagexdd/SPAMXD/fork")
-    ]
+    
 ]
 
 
@@ -40,7 +38,7 @@ async def start(event):
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://telegra.ph/file/816a63029c5ed26f3037a.jpg",
+                    "https://telegra.ph/file/719e7092b9a37a100468d.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
