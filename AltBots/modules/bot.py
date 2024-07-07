@@ -21,10 +21,14 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"•[ 🍹ηєχz тум 🍹 ]•")
+        altron = await e.reply(f"•[ 🍹ᏯᎯᏒ ᎷᎯᏨᎻᎨᏁᎬ🍹 ]•")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"[🍹] ηєχz ραρα ιѕ нєʀє\n[🏓] αвє αв тєʀα куα нσgα\n[⚡] кιѕкι ᴄнυ∂αι кαʀиι нαι\n\n➜ `{mp} ms`")
+        await altron.edit( ⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️
+⚡️𝑾𝑨𝑹 ✗ 𝑫𝑨𝑫𝑫𝒀 ⚡️
+⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️
+⚡️𝑹𝑬𝑨𝑫𝒀 𝑻𝑶 𝑭𝑪𝑲⚡️
+⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️➜ `{mp} ms`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -123,7 +127,7 @@ async def addsudo(event):
                 newsudo = f"{sudousers} {target}"
             else:
                 newsudo = f"{target}"
-            await ok.edit(f"» σує нσує мєʀα ᴄυтє вαᴄннα\n:⧽ `{target}`\n:⧽ `ωєℓᴄσмє тσ ηєχz ѕραм`")
+            await ok.edit(f"» σує нσує мєʀα ᴄυтє вαᴄннα\n:⧽ `{target}`\n:⧽ `ωєℓᴄσмє тσ Wå̊r må¢hïñê`")
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
