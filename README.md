@@ -2,7 +2,7 @@
 
 <h4 align="center">  𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒 𝐁𝐘 𝐓𝐇𝐀𝐋𝐀_𝐅𝐀𝐌𝐈𝐋𝐘 </h4>
 
-<p align="center"><a href="https://t.me/PyXen"><img src="https://telegra.ph/file/816a63029c5ed26f3037a.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/PyXen"><img src="https://telegra.ph/file/97d07f26d1322ed3461b6.jpg" width="400"></a></p>
 
 
 > ⭐️ Thanks to everyone for using this op WARxSPAM. That is the greatest pleasure we have !
