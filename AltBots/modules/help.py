@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"★ 𝗪ᴀʀ 𝗠ᴀᴄʜɪɴᴇ 𝗦ᴘᴀᴍ 𝗛ᴇʟᴘ 𝗠ᴇɴᴜ ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @nexzz_op**"
+HELP_STRING = f"★ 𝗪ᴀʀ 𝗠ᴀᴄʜɪɴᴇ 𝗦ᴘᴀᴍ 𝗛ᴇʟᴘ 𝗠ᴇɴᴜ ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @ll_WAR_MN8_ll**"
 
 HELP_BUTTON = [
     [
@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("• ᴇxᴛʀᴀ •", data="extra")
     ],
     [
-      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/team_nexz"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/nexz_support")
+      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/abt_war"),
+      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/thala_elclassico_07")
     ]
   ]
 
@@ -34,7 +34,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/719e7092b9a37a100468d.jpg",
+              "https://telegra.ph/file/4e2145afddaff76b243eb.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -60,7 +60,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @nexzz_op**
+**© @ll_WAR_MN8_ll**
 """
 
                  
@@ -92,7 +92,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @nexz_op**
+**© @ll_WAR_MN8_ll**
 """
 
 spam_msg = f"""
@@ -109,7 +109,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-** © @nexz_op**
+** © @ll_WAR_MN8_ll**
 """                     
            
            
@@ -136,13 +136,13 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/team_nexz"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/nexz_support")
+                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/abt_war"),
+                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/thala_elclassico_07")
               ]
             ]
           )
     else:
-        await event.answer("Make Your Own Spamxd Bots !! @nexzz_op", cache_time=0, alert=True)
+        await event.answer("Make Your Own War Machine Spam Bots !! @ll_WAR_MN8_ll", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("Make Your Own Spamxd Bots !! @nexzz_op", cache_time=0, alert=True)
+        await event.answer("Make Your Own War Machine Spam Bots !! @ll_WAR_MN8_ll", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("Make Your Own Spamxd Bots !! @nexzz_op", cache_time=0, alert=True)
+        await event.answer("Make Your Own War Machine Spam Bots !! @ll_WAR_MN8_ll", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -199,4 +199,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("Make Your Own Spamxd Bots !! @nexzz_op", cache_time=0, alert=True)
+        await event.answer("Make Your Own War Machine Spam Bots !! @Wll_WAR_MN8_ll", cache_time=0, alert=True)
